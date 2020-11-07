@@ -16,6 +16,7 @@
     name:
       - ca-certificates
       - apt-transport-https
+      - openjdk-8-jre-headless
     state: present
     update_cache: yes
     cache_valid_time: 3600

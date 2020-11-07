@@ -1,22 +1,15 @@
 ---
 
 galaxy_info:
-  author: Gunter Grodotzki
+  author: Richard Widén
   description: Installs UniFi Controller
-  company: 9JKH (Ptd) Ltd.
+  company: Imes
   license: MIT
   min_ansible_version: 2.5
   platforms:
     - name: Ubuntu
       versions:
-        - bionic
-        - xenial
-        - trusty
-    - name: Debian
-      versions:
-        - stretch
-        - jessie
-        - wheezy
+        - focal
   galaxy_tags:
     - system
     - networking
@@ -26,5 +19,5 @@ galaxy_info:
     - controller
     - unifi
 dependencies:
-  - src: lifeofguenter.oracle-java
-    version: 1.0.4
+#- src: lifeofguenter.oracle-java
+#  version: 1.0.4
